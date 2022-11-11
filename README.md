@@ -10,6 +10,7 @@
 
 【永続化させたいデータを、誰かに「人質」に取られることなく秘匿化し、選択的開示や分散配置を行える仕組み】をみんなで継続して考え、実現していく最初の第一歩が『EOA Crypt』です。
 
+## 概要動画
 [!['概要動画'](https://i.ytimg.com/vi/FSYfN88Abqg/maxresdefault.jpg)](https://youtu.be/FSYfN88Abqg)
 
 ## テスト方法・手順
@@ -44,8 +45,8 @@ EOA Cryptは、暗号化・復号のコア処理部においてJavaScript,WASM(C
 また、EOA Cryptは(今回のデモ版においても)フロントエンドのロジックはIPFSへ配置、データはブロックチェーンおよびIPFSに保存されています。
 よって特別にサーバを用意する必要はありません。  
 
-## 処理フロー
-![EOACrypt送信処理フロー](https://github.com/ukishima/EOA-Crypt-For-Tokyo-Web3-Hackathon/blob/main/docs/readme_img/pic_flow_send.jpg "送信処理フロー")
+## 概要
+![EOACryptアーキテクチャー](https://github.com/ukishima/EOA-Crypt-For-Tokyo-Web3-Hackathon/blob/main/docs/overview/pic_architecture.jpg "EOACryptアーキテクチャー")
 
 ## Tech Stacks
 
