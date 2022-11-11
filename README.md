@@ -44,6 +44,9 @@ EOA Cryptは、暗号化・復号のコア処理部においてJavaScript,WASM(C
 また、EOA Cryptは(今回のデモ版においても)フロントエンドのロジックはIPFSへ配置、データはブロックチェーンおよびIPFSに保存されています。
 よって特別にサーバを用意する必要はありません。  
 
+## 処理フロー
+![EOACrypt送信処理フロー](https://github.com/ukishima/EOA-Crypt-For-Tokyo-Web3-Hackathon/blob/main/docs/readme_img/pic_flow_send.jpg "送信処理フロー")
+
 ## Tech Stacks
 
 | Category | Name |
