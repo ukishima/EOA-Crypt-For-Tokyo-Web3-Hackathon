@@ -232,7 +232,7 @@
         height: 48px;
         line-height: 48px;
         font-size: 2.8rem;
-        background-image: url("data:image/svg+xml;base64,PHN2ZyAgdmlld0JveD0iMCAwIDc1IDc2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMuNDU2MjIgMEMxLjU0NzQgMCAwIDEuNTM5NjUgMCAzLjQzODkxVjM3LjgzMzlDMCA1OC45MTI0IDE3LjE3MzUgNzYgMzguMzU4MiA3NkM1My45MjIyIDc2IDY3LjMwMjMgNjYuNjUwMyA3My4xODY1IDUzLjMwMzJINTguODM4N0M1NC4zMDQ4IDU5LjQ4MzIgNDYuOTY4NyA2My40OTg1IDM4LjY4OTYgNjMuNDk4NUMyNC45MjE4IDYzLjQ5ODUgMTMuNzYwOCA1Mi4zOTM2IDEzLjc2MDggMzguNjk0N0MxMy43NjA4IDI0Ljk5NTUgMjQuOTIxOCAxMy44OTAzIDM4LjY4OTYgMTMuODkwM0M0OC4xMzU4IDEzLjg5MDMgNTYuMzU0NCAxOS4xMTc2IDYwLjU4MzggMjYuODIzNUg3NC42ODAzQzY5Ljg1OTkgMTEuMzA5NiA1NS4zNDY1IDAgMzguMTkxMiAwSDMuNDU2MjJaTTc0LjY1NDQgMzQuMDQ1MkgyMS4wODI5QzIxLjA4MjkgNDAuODgyNSAyNi42NTM2IDQ2LjQyNTMgMzMuNTI1MyA0Ni40MjUzSDc0LjY1NDRWMzQuMDQ1MlpNMTguNjYzNiAxMi41NTIxQzE4LjY2MzYgMTYuMDY1NyAxNS44MDA5IDE4LjkxNCAxMi4yNjk2IDE4LjkxNEM4LjczODI4IDE4LjkxNCA1Ljg3NTU4IDE2LjA2NTcgNS44NzU1OCAxMi41NTIxQzUuODc1NTggOS4wMzg0MiA4LjczODI4IDYuMTkwMDYgMTIuMjY5NiA2LjE5MDA2QzE1LjgwMDkgNi4xOTAwNiAxOC42NjM2IDkuMDM4NDIgMTguNjYzNiAxMi41NTIxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==");
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA0OCI+PHBhdGggZD0iTTAgNS43ODMxM0MwIDIuNTg5MiAyLjU4OTIgMCA1Ljc4MzEzIDBIMjRDMzcuMjU0OCAwIDQ4IDEwLjc0NTIgNDggMjRDNDggMzcuMjU0OCAzNy4yNTQ4IDQ4IDI0IDQ4QzEwLjc0NTIgNDggMCAzNy4yNTQ4IDAgMjRWNS43ODMxM1oiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMjQuMzEzMyIgY3k9IjI0LjQzODYiIHI9IjE1LjY2NTgiIGZpbGw9IiMyMDIyMjUiLz48cGF0aCBkPSJNMTEuODg1NyAyMS4yNTcxQzExLjg4NTcgMjAuMTIxIDEyLjgwNjggMTkuMiAxMy45NDI5IDE5LjJINDYuMTcxNVYzMS41NDI5SDIyLjE3MTVDMTYuNDkwOCAzMS41NDI5IDExLjg4NTcgMjYuOTM3OCAxMS44ODU3IDIxLjI1NzFaIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjMjAyMjI1IiBzdHJva2Utd2lkdGg9IjYiLz48L3N2Zz4=");
         background-repeat: no-repeat;
       }
       footer .help {
@@ -839,8 +839,8 @@
         content: "";
         display: block;
         position: absolute;
-        top: 35%;
-        left: 55%;
+        top: 50%;
+        left: 50%;
         width: 40%;
         height: 4px;
         border-radius: 2px;
@@ -852,8 +852,8 @@
         content: "";
         display: block;
         position: absolute;
-        top: 35%;
-        left: 55%;
+        top: 50%;
+        left: 50%;
         width: 76%;
         height: 4px;
         border-radius: 2px;
@@ -952,28 +952,16 @@
         height: 100%;
         content: "";
         background: rgba(0, 0, 0, 0.3);
-        overflow: hidden;
       }
       .first_contents_wrapper {
         position: relative;
         text-align: center;
         top: -6rem;
-        left: 0;
+        left: 50%;
         padding: 0;
-        width: 100%;
-        margin-left: 0;
+        width: 800px;
+        margin-left: -400px;
         z-index: 100;
-      }
-      .link_github {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-        width: 36px;
-        z-index: 9999;
-      }
-      .link_github:hover {
-        transition-duration: 0.5s;
-        opacity: 0.7;
       }
       .first_left {
         margin-right: 2.8rem;
@@ -1028,13 +1016,8 @@
         font-size: 2.1rem;
         font-weight: 300;
       }
-      .first_bottom .catch.under {
-        margin-top: 1.2rem;
-        line-height: 2.8rem;
-        font-size: 1.2rem;
-      }
       .button_launch_wrapper {
-        margin-top: 4rem;
+        margin-top: 6rem;
       }
       #launchButton {
         width: 260px;
@@ -1044,7 +1027,7 @@
         font-weight: 400;
         color: #ffffff;
         background: linear-gradient(266.08deg, #ED23A8 4.27%, #1400F4 100%);
-        border: 5px solid #FFFFFF;
+        border: 3px solid #FFFFFF;
         border-radius: 7px 30px 7px 30px;
         z-index: 100;
       }
@@ -1052,10 +1035,9 @@
         transition-duration: 0.5s;
         cursor: pointer;
         opacity: 0.7;
-        border-radius: 7px 7px 7px 7px;
       }
       .button_help_wrapper {
-        margin-top: 5rem;
+        margin-top: 6rem;
         font-size: 3rem;
         z-index: 101;
       }
@@ -1067,7 +1049,7 @@
         font-size: 2rem;
         vertical-align: middle;
         color: #ffffff;
-        background-color: #262626;
+        background-color: #383a3d;
         border: 3px solid #ffffff;
         border-radius: 12px;
         background-size: 28px;
@@ -1087,12 +1069,11 @@
         position: absolute;
         bottom: 3rem;
         right: 2rem;
-        color: #f1f1f1;
+        color: #fff;
         font-size: 2.6rem;
         font-weight: 500;
         font-family: 'Alata';
         font-feature-settings: "palt";
-        z-index: 9998;
       }
       header, main, footer, #firstImage {
         display: none;
@@ -1102,9 +1083,6 @@
       @media screen and (min-height: 800px) {
         .first_date {
           display: block;
-        }
-        .button_help_wrapper {
-          margin-top: 9rem;
         }
       }
       @media (min-width: 390px) {
@@ -1206,12 +1184,7 @@
 
         /*--------------------------------------------------*/
         .first_contents_wrapper {
-          top:24%;
-        }
-        .link_github {
-          width: 42px;
-          top: 3.2rem;
-          right: 4rem;
+          top:26%;
         }
         .first_left {
           display: inline-block;
@@ -1246,13 +1219,8 @@
         .first_bottom .catch {
           font-size: 3.2rem;
         }
-        .first_bottom .catch.under {
-          margin-top: 2.5rem;
-          line-height: 2.8rem;
-          font-size: 1.8rem;
-        }
         .button_launch_wrapper {
-          margin-top: 6rem;
+          margin-top: 8rem;
         }
         #launchButton {
           width: 320px;
@@ -1430,12 +1398,7 @@
     <div id="content_wrapper">
       <!-------------------------------------------------------->
       <div id="firstImage" class="overlay">
-        <div class="link_github">
-          <a href="https://github.com/ukishima/EOA-Crypt-For-Tokyo-Web3-Hackathon" target="_blank">
-            <img alt="Github" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzcgMzYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xOC41MDAxIDBDOC4yODQwOCAwIDAgOC4yNjI3NCAwIDE4LjQ1NTdDMCAyNi42MSA1LjMwMDgyIDMzLjUyNzkgMTIuNjUxNSAzNS45NjgzQzEzLjU3NjEgMzYuMTM5MSAxMy45MTU2IDM1LjU2NzkgMTMuOTE1NiAzNS4wODA0QzEzLjkxNTYgMzQuNjQwNCAxMy44OTgzIDMzLjE4NjUgMTMuODkwNSAzMS42NDQzQzguNzQzNTkgMzIuNzYwOCA3LjY1NzU3IDI5LjQ2NjggNy42NTc1NyAyOS40NjY4QzYuODE2MDMgMjcuMzMzNiA1LjYwMzQ5IDI2Ljc2NjUgNS42MDM0OSAyNi43NjY1QzMuOTI1MDUgMjUuNjIwOSA1LjczMDAxIDI1LjY0NDQgNS43MzAwMSAyNS42NDQ0QzcuNTg3NzggMjUuNzc0NyA4LjU2NiAyNy41NDYzIDguNTY2IDI3LjU0NjNDMTAuMjE2IDMwLjM2NzggMTIuODkzOCAyOS41NTIxIDEzLjk0OTUgMjkuMDgwNkMxNC4xMTU1IDI3Ljg4NzYgMTQuNTk1IDI3LjA3MzYgMTUuMTI0MSAyNi42MTI3QzExLjAxNSAyNi4xNDU5IDYuNjk1MzEgMjQuNTYzNCA2LjY5NTMxIDE3LjQ5MThDNi42OTUzMSAxNS40NzcgNy40MTgwMiAxMy44MzA1IDguNjAxNTQgMTIuNTM4MUM4LjQwOTQ0IDEyLjA3MzEgNy43NzYyNSAxMC4xOTYxIDguNzgwNzMgNy42NTM5NUM4Ljc4MDczIDcuNjUzOTUgMTAuMzM0MiA3LjE1NzkxIDEzLjg2OTYgOS41NDU3NkMxNS4zNDUyIDkuMTM2NzEgMTYuOTI3OCA4LjkzMTc1IDE4LjUwMDEgOC45MjQ4QzIwLjA3MjMgOC45MzE3NSAyMS42NTYxIDkuMTM2NzEgMjMuMTM0NiA5LjU0NTc2QzI2LjY2NTggNy4xNTc5MSAyOC4yMTcxIDcuNjUzOTUgMjguMjE3MSA3LjY1Mzk1QzI5LjIyNCAxMC4xOTYxIDI4LjU5MDYgMTIuMDczMSAyOC4zOTg1IDEyLjUzODFDMjkuNTg0NiAxMy44MzA1IDMwLjMwMjQgMTUuNDc2OCAzMC4zMDI0IDE3LjQ5MThDMzAuMzAyNCAyNC41ODAyIDI1Ljk3NDUgMjYuMTQxMiAyMS44NTUxIDI2LjU5OEMyMi41MTg2IDI3LjE3MDcgMjMuMTA5OCAyOC4yOTM5IDIzLjEwOTggMzAuMDE1N0MyMy4xMDk4IDMyLjQ4NSAyMy4wODgzIDM0LjQ3MjUgMjMuMDg4MyAzNS4wODA0QzIzLjA4ODMgMzUuNTcxNiAyMy40MjEzIDM2LjE0NzEgMjQuMzU5MiAzNS45NjU4QzMxLjcwNTggMzMuNTIyNyAzNyAyNi42MDcyIDM3IDE4LjQ1NTdDMzcgOC4yNjI3NCAyOC43MTcxIDAgMTguNTAwMSAwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" />
-          </a>
-        </div>
-        <div class="first_date">12th Nov 2022</div>
+        <div class="first_date">6th Nov 2022</div>
         <div class="first_contents_wrapper">
           <div class="first_top">
             <div class="first_left">
@@ -1452,7 +1415,6 @@
           </div>
           <div class="first_bottom">
             <div class="catch">Web3の未来をより良いものに！</div>
-            <div class="catch under">ブロックチェーン上データを選択的に暗号化/復号</div>
             <div class="button_launch_wrapper">
               <button id="launchButton">Launch Dapps</button>
             </div>
