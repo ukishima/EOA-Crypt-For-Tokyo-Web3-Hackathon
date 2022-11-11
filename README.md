@@ -14,7 +14,7 @@
 
 ## テスト方法・手順
 1. プロダクトデモページにアクセスし「Launch Dapps」ボタンを押してDappsのページに進んでください。  
-[EOA Crypt デモページ](https://bafybeiasreuxb26b7aquirmqkp5tdlh54nbs3wb4ijskob4nhxaacwzfqi.ipfs.w3s.link/)
+[EOA Crypt デモページ](https://bafybeibdiek2zabncp7wxe6wyh5torur6db2qb45zwuv5x474fldx5xc2y.ipfs.w3s.link/)
 
 1. 画面右上の「Connect wallet」を押してWeb3ウォレット(Metamask)を接続してください。  
 利用にはガス代(0.0001GoerliETH程度)が必要となります。 (Ethereumのテストネットにつき無料)  
