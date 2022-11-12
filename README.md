@@ -74,4 +74,4 @@ https://ukishima.github.io/EOA-Crypt-For-Tokyo-Web3-Hackathon/docs/
 
 ## Pitch Slide Page
 [ピッチ資料](/docs/pitch/pitch.md)  
-[11/12 DemoDayピッチ資料](/docs/1112demoday_pitch/1112demoday_pitch.md)
+[11/12 DemoDayピッチ資料](/docs/1112Demoday_pitch/1112demoday_pitch.md)
