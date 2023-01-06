@@ -15,9 +15,8 @@
 
 ## テスト方法・手順
 1. プロダクトデモページにアクセスし「Launch Dapps」ボタンを押してDappsのページに進んでください。  
-[EOA Crypt デモページ](https://ukishima.github.io/EOA-Crypt-For-Tokyo-Web3-Hackathon/)
-
-[ポスト量子暗号版 デモページ](https://ukishima.github.io/eoa-crypt-pqc/)
+[EOA Crypt デモページ](https://ukishima.github.io/EOA-Crypt-For-Tokyo-Web3-Hackathon/)  
+[ポスト量子暗号版 デモページ](https://ukishima.github.io/eoa-crypt-pqc/)  
 
 1. 画面右上の「Connect wallet」を押してWeb3ウォレット(Metamask)を接続してください。  
 利用にはガス代(0.0001GoerliETH程度)が必要となります。 (Ethereumのテストネットにつき無料)  
